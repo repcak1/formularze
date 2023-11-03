@@ -13,3 +13,40 @@ echo "pierwszy checkbox :" . $_POST["vehicle1"] ;
 echo "<br>drugi checkbox :" . $_POST["vehicle2"];
  
 ?>
+
+
+<html>
+    <form>
+        <label for="name">name:</label>
+        <input type="text" id="name" name="name"
+        required><br><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email"
+        required><br><br>
+
+        <label for="website">website:</label>
+        <input type="text" id="website" name="website"
+        required><br><br>
+        <label for="comment:">comment:</label>
+        <textarea rows="6" cols="50"  
+      
+        name="Comment:"></textarea><br> 
+        
+
+        <label>
+            <required>
+            <input type="radio" name="gender"
+            value="male">meżczyzna
+        </label>
+        <label>
+            <input type="radio" name="gender"
+            value="Female">kobieta
+        </label>
+        <label>
+            <input type="radio" name="gender"
+            value="other ">inne
+</required>
+        </label><br><br>
+<input type="submit" value="submit">
+    
